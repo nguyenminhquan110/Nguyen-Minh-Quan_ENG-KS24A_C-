@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-	char text[] = "Hello hanmin chan okela" ;
+	char text[] = "Hello world" ;
 	int lenght = strlen(text);
 	int count = 0;
 	
@@ -21,7 +21,7 @@ int main(){
 		}
 	}
 	if ( count == 0 ){
-		printf("\n Phan tu %c k co trong chuoi!");
+		printf("\n Phan tu %c khong co trong chuoi!");
 	}else{
 		printf("\n kq: %s", text);
 	}
